@@ -1,0 +1,20 @@
+.item {
+    color: rgb(157, 159, 59);
+    background-color: black;
+}
+
+.para1 {
+    color: rgb(255, 146, 146);
+    background-color: brown;
+    border: solid;
+}
+
+#list1 > li {
+    background-color: grey;
+
+}
+
+.h4_stuff {
+    font-style:bold;
+    font-style:italic;
+}
