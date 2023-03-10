@@ -48,6 +48,10 @@ function play(attributeList){
     console.log(soda_line);
 }
 
-play(first_attributeList);
+function play2(attributeList){
+    console.log(sodas.map(soda => attributeList.map(item => `${item}: ${soda[item]}`).join(', ')).join('\n'));
+}
+
+play2(first_attributeList);
 console.log('-----------------');
-play(second_attributeList);
+play2(second_attributeList);
